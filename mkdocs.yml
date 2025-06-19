@@ -3,6 +3,7 @@ repo_url: https://github.com/tom-mcmillan/ving
 repo_name: tom-mcmillan/ving
 nav:
   - Home:
+      - Home: index.md
       - Mission Impossible 3 (2000): index.md#mission-impossible-3-2000
 theme:
   name: terminal
