@@ -14,14 +14,6 @@ def main():
     header = [
         '# Ving Rhames Sunglasses',
         '',
-        'This page is generated from `data/ving.yaml`. Edit that file and run:',
-        '',
-        '```bash',
-        'python scripts/generate_index.py',
-        '```',
-        '',
-        'Below are the catalog entries:',
-        '',
     ]
 
     lines = []
@@ -38,7 +30,8 @@ def main():
         lines.append('')
 
         if image:
-            lines.append(f'![{title}]({image})')
+            # standardize image display size for readability
+            lines.append(f'<img src="{image}" alt="{title}" style="max-width:300px; height:auto;"/>')
             lines.append('')
 
         if make_model:
