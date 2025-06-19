@@ -19,14 +19,25 @@ def main():
     lines = []
     lines.extend(header)
 
+    import re
+
+    def slugify(text):
+        # create a lowercase, alphanumeric-and-hyphen slug
+        s = text.lower()
+        # remove characters except alphanumeric and spaces
+        s = re.sub(r'[^a-z0-9 ]+', '', s)
+        # collapse spaces to hyphens
+        return s.strip().replace(' ', '-')
+
     for entry in entries:
         title = entry.get('title', 'Untitled')
+        slug = slugify(title)
         image = entry.get('image', '')
         make_model = entry.get('make_model', '')
         purchase = entry.get('purchase_link', '')
         notes = entry.get('notes', '')
 
-        lines.append(f'## {title}')
+        lines.append(f'## {title} {{#{slug}}}')
         lines.append('')
 
         if image:

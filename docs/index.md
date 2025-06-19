@@ -1,6 +1,6 @@
 # Ving Rhames Sunglasses
 
-## Mission Impossible 3 (2000)
+## Mission Impossible 3 (2000) {#mission-impossible-3-2000}
 
 <img src="images/web-2002.png" alt="Mission Impossible 3 (2000)" style="max-width:300px; height:auto;"/>
 

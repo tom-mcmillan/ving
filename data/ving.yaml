@@ -1,10 +1,5 @@
-# Add your entries under `entries:`. For example:
-# entries:
-#   - title: Film Title (Year)
-#     image: images/film_title.jpg
-#     make_model: Oakley Model XYZ
-#     purchase_link: https://www.example.com
-#     notes: Optional notes here.
+# Add entries here
+
 entries:
   - title: Mission Impossible 3 (2000)
     image: images/web-2002.png
