@@ -12,3 +12,7 @@ markdown_extensions:
   - attr_list
   - toc:
       permalink: true
+
+validation:
+  nav:
+    not_found: false
