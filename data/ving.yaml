@@ -1,0 +1,13 @@
+# Add your entries under `entries:`. For example:
+# entries:
+#   - title: Film Title (Year)
+#     image: images/film_title.jpg
+#     make_model: Oakley Model XYZ
+#     purchase_link: https://www.example.com
+#     notes: Optional notes here.
+entries:
+  - title: Mission Impossible 3 (2000)
+    image: images/web-2002.png
+    make_model: Web 2002 Medium 025L
+    purchase_link: https://www.ebay.com/itm/395906275563?_skw=web&itmmeta=01JY2WJGDD29KXNVX8YQ4K5PR4&hash=item5c2dda58eb:g:gLUAAOSwTuFnNrMH
+    notes: ''

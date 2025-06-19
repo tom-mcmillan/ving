@@ -1,0 +1,7 @@
+site_name: Ving
+repo_url: https://github.com/tom-mcmillan/ving
+repo_name: tom-mcmillan/ving
+nav:
+  - Home: index.md
+theme:
+  name: terminal
