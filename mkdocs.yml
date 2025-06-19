@@ -7,3 +7,8 @@ nav:
       - Mission Impossible 3 (2000): index.md#mission-impossible-3-2000
 theme:
   name: terminal
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
