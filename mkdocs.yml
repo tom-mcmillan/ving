@@ -15,4 +15,4 @@ markdown_extensions:
 
 validation:
   nav:
-    not_found: false
+    not_found: ignore
